@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.spacer,
+.stage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.stage{
+    gap: 1em;
+    background-color: black;
+}
+
+
+.box__styles{
+    width: 80px;
+    aspect-ratio: 1;
+    border-radius: 1em;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    font-size: 2rem;
+}
+
+.outer{
+    overflow: hidden;
+    border-bottom: 2px solid white;
+}
+
+.inner{
+    position: relative;
+}
+
+section,
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pin_container{
+    height: 100%;
+}
+
+.pinContainer{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.panel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.inside{
+    width: 5em;
+    aspect-ratio: 1;
+    font-size: initial;
+    background-color: red;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pinMaster{
+    position: relative;
+}
+
+.spacer{
+    height: 100vh;
+    background-color: violet;
+}
+
+footer{
+    height: 100px;
+    background-color: gray;
+}
+
+.dark{
+    background-color: #262626;
+}
+
+.turquoise{
+    background-color: #38ced7;
+}
+
+.bordeaux{
+    background-color: #953543;
+}
+
+.yellow{
+    background-color: #9e9e61;
+}
