@@ -108,18 +108,69 @@ footer{
     background-color: gray;
 }
 
-.dark{
+.dark,
+.one{
     background-color: #262626;
 }
 
-.turquoise{
+.turquoise,
+.two{
     background-color: #38ced7;
 }
 
-.bordeaux{
+.bordeaux,
+.four{
     background-color: #953543;
 }
 
-.yellow{
+.yellow,
+.three{
     background-color: #9e9e61;
+}
+
+
+.header{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.content{
+    height: 400vh;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+
+.content__image{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.contents{
+    width: 50%;
+}
+
+.contents__section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contents__section p{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.foot{
+    height: 100vh;
 }
